@@ -22,8 +22,8 @@ public void sierpinski(int x, int y, int len)
 	//else 
 	 //{
 		fill(0,255,0);
-	   	triangle(x, y, x+sqrt(3)*len, len/2, x-sqrt(3)*len, len/2);
-	   	//triangle(x, y, x+25, y+25, x+35, y+35);
+	   	triangle(x, y, x+len, y, x+len/2, y-len);
+	   	
 	   //	len--;
 	//}
 
